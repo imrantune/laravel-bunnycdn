@@ -26,5 +26,6 @@
                 "Katzen48\\LaravelBunnyCdn\\Providers\\BunnyCdnServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
