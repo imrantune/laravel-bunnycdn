@@ -61,4 +61,10 @@ class BunnyCdnAdapter extends \PlatformCommunity\Flysystem\BunnyCDN\BunnyCDNAdap
         return "https://".$this->bunnyCDNStorage->storageZoneName.".b-cdn.net/".$path;
 
     }
+    /**
+    *to avoid error
+    */
+    public function setVisibility($path, $visibility){
+        
+    }
 }
