@@ -62,7 +62,7 @@ class BunnyCdnAdapter extends \PlatformCommunity\Flysystem\BunnyCDN\BunnyCDNAdap
 
     }
     /**
-    *to avoid error
+    *to avoid error visibilty
     */
     public function setVisibility($path, $visibility){
         
